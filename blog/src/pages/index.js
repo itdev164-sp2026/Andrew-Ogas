@@ -51,14 +51,14 @@ export const query = graphql`
                     }
                 }
                 heroImage {
-            gatsbyImageData(
-              layout: CONSTRAINED, 
-              placeholder: BLURRED, 
-              width: 300
-            )
-          }
+                    gatsbyImageData(
+                        layout: CONSTRAINED, 
+                        placeholder: BLURRED, 
+                        width: 300
+                    )
+                }
+            }
         }
-      }
     }
 }
 `
